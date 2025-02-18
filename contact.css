@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: violet;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer b {
+    margin-top: 3px;
+}
+
+.container {
+    padding: 0px 50px;
+}
